@@ -11,7 +11,8 @@ const project = {
             {name:'alt',title:'Alt',type:'string'}
         ]},
         {name:'url',title:'URL',type:'url'},
-        {name:'content',title:'Content',type:'array',of:[{type:'block'}]},
+        {name:'description',title:'Description',type:'array',of:[{type:'block'}]},
+        {name:'detail',title:'Detail',type:'array',of:[{type:'block'}]},
     ]
 }
 
