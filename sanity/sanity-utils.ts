@@ -1,4 +1,5 @@
 import { createClient, groq } from "next-sanity"
+import { Project } from "type/project"
 
 export async function getProjects() {
     const client = createClient({

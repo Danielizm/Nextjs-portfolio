@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getProjects } from "../../sanity/sanity-utils";
+import { Project } from "type/project";
 
 export default function Work() {
     const [projects, setProjects] = useState([])
@@ -16,7 +17,7 @@ export default function Work() {
     }, []);
     return (
         <div>
-            {projects.map((project)=>(
+            {projects.map((project:Project) =>(
                 <div key={project._id}>{project.name}</div>
             ))}
         </div>
