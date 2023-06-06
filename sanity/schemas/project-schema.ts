@@ -13,6 +13,7 @@ const project = {
         {name:'url',title:'URL',type:'url'},
         {name:'description',title:'Description',type:'array',of:[{type:'block'}]},
         {name:'detail',title:'Detail',type:'array',of:[{type:'block'}]},
+        {name:'excerpt',title:'Excerpt',type:'array',of:[{type:'block'}]},
     ]
 }
 
